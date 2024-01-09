@@ -1,4 +1,4 @@
-package src.Oops.Jan4;
+package src.Oops.Jan4.Basics;
 
 public class Lab113 {
     public static void main(String[] args) {

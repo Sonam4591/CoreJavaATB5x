@@ -1,4 +1,4 @@
-package src.Oops.Jan4;
+package src.Oops.Jan4.Basics;
 
 import java.util.Scanner;
 

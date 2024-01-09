@@ -1,29 +1,26 @@
-package src.Oops.Jan4;
+package src.Oops.Jan4.Basics;
 
 import java.util.Scanner;
 
-public class Lab123 {
+public class Lab121 {
     public static void main(String[] args) {
-
-        //SWAPPING two variable withOUT  3rd variable using Multipication and division
-
-        //NOT WORK IF THR VALUE IS ZERO
+  //SWAPPING two variable with 3rd variable
 
         Scanner sc =new Scanner(System.in);
         System.out.println("Enter  A : ");
-        int  a =sc.nextInt();
+       int  a =sc.nextInt();
         System.out.println("Enter  B : ");
         int  b =sc.nextInt();
         System.out.println();
         System.out.println( "Values of A "+a);
         System.out.println( "Values of B "+b);
 
-        a=a*b;
-        b=a/b;
-        a=a/b;
+        int temp=a;
+        a=b;
+        b=temp;
         System.out.println();
-        System.out.println("New value of A "+a);
-        System.out.println("New value of B "+b);
-    }
+        System.out.println( "New A "+a);
+        System.out.println( "New B "+b);
 
+    }
 }

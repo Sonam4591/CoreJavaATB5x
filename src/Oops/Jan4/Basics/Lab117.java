@@ -1,4 +1,4 @@
-package src.Oops.Jan4;
+package src.Oops.Jan4.Basics;
 
 public class Lab117 {
     public static void main(String[] ref_name) {
